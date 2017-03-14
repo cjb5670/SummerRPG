@@ -1,0 +1,42 @@
+﻿<Window x:Class="AddMove.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddMove"
+        mc:Ignorable="d"
+        Title="Add Move" Height="425" Width="525">
+    <Grid Name="FullWindow">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="34*"/>
+            <ColumnDefinition Width="483*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="label" Content="Kingdom:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Grid.ColumnSpan="2"/>
+        <Label x:Name="label1" Content="Specialization:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,50,0,0" Grid.ColumnSpan="2"/>
+        <Label x:Name="label2" Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,97,0,0" Grid.ColumnSpan="2"/>
+        <Label x:Name="label3" Content="Damage:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="176,97,0,0" Grid.Column="1"/>
+        <Label x:Name="label4" Content="Defense:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,159,0,0" Grid.ColumnSpan="2"/>
+        <Label x:Name="label5" Content="Accuracy:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="173,159,0,0" Grid.Column="1"/>
+        <Label x:Name="label6" Content="Effect:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,227,0,0" Grid.ColumnSpan="2"/>
+        <Label x:Name="label7" Content="Description:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="172.818,227,0,0" Grid.Column="1"/>
+        <RadioButton x:Name="Martial" Content="Martial" GroupName ="Kingdom" Checked ="Kingdom_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Margin="76,16,0,0"/>
+        <RadioButton x:Name="Mage" Content="Mage" GroupName ="Kingdom" Checked ="Kingdom_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="173,16,0,0" Grid.Column="1"/>
+        <RadioButton x:Name="Divine" Content="Divine" GroupName ="Kingdom" Checked ="Kingdom_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="263,16,0,0" Grid.Column="1"/>
+        <RadioButton x:Name="Universal" Content="Universal" GroupName ="Kingdom"  Checked ="Kingdom_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,16,0,0" Grid.Column="1"/>
+        <RadioButton x:Name="Evasive" Content="Evasive" GroupName ="Spec" Checked ="Spec_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Margin="263,56,0,0"/>
+        <RadioButton x:Name="Defensive" Content="Defensive" GroupName ="Spec" Checked ="Spec_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Margin="173,56,0,0"/>
+        <RadioButton x:Name="Offensive" Content="Offensive" GroupName ="Spec" Checked ="Spec_Checked" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Margin="76,56,0,0"/>
+
+        <TextBox x:Name="Description" HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="284" Grid.Column="1" Margin="176,253,0,0"/>
+        <TextBox x:Name="Effect" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="[stat][+/-][number][duration]" VerticalAlignment="Top" Width="167" Margin="12,253,0,0"/>
+        <TextBox x:Name="Accuracy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1" Margin="176,185,0,0" />
+        <TextBox x:Name="Defense" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="12,185,0,0" />
+        <TextBox x:Name="Damage" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1" Margin="176,123,0,0" />
+        <TextBox x:Name="Name" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="12,123,0,0"/>
+        <Button x:Name="Save" Content="Add Move to List" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Grid.Column="1" Margin="159,339,0,0" Click="Save_Click"/>
+
+
+
+    </Grid>
+</Window>

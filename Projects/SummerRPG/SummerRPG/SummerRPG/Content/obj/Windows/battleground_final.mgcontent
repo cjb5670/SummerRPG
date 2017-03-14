@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/battleground_final.wav</SourceFile>
+  <SourceTime>2016-07-26T20:27:24.2010031+05:30</SourceTime>
+  <DestFile>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/bin/Windows/battleground_final.xnb</DestFile>
+  <DestTime>2016-08-05T23:54:57.6394869+05:30</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2016-03-30T12:06:08+05:30</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2016-03-30T12:06:08+05:30</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/bin/Windows/battleground_final.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>

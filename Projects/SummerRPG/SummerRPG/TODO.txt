@@ -1,0 +1,26 @@
+FOR FUTURE IMPLEMENTATION:
+
+List of buttons.
+
+Button text is rewritten based on a list of moves each character has.
+Initilize reads a text doc that holds the moves a character knows and adds them to a list. 
+When a character learns a new move, it is added to the list. 
+
+A save function writes a character's stats to a text doc with their name on it.
+
+FOR ATTENTION NOW:
+
+Info Box needs texture.
+AddMove WPF needs to be edited so Descriptions fit on InfoBox (character limit
+	before break)
+	
+Create better feedback for what is happening in the game.
+
+Implement leveling up system, learning new moves, methods for animating menu moving,
+ 
+
+
+KNOWN BUGS:
+(possible solve) (reserach)		Monogame isn't loading audio files
+Parcou still can cause out of range exception. Hide object instead of removing form list.
+AddMove function having troubles with Substring and length out of bounds.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/battleground_final.wav</File>
+    <File>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/click4.wav</File>
+    <File>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/hit.wav</File>
+    <File>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/hit2.wav</File>
+    <File>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/hit3.wav</File>
+    <File>C:/Users/Cameron/Documents/Visual Studio 2015/Projects/SummerRPG/SummerRPG/Content/hover2.wav</File>
+  </SourceFiles>
+</SourceFileCollection>

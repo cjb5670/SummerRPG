@@ -1,0 +1,143 @@
+[Movename]:
+Damage:[number]
+Defense:[number]
+Accuracy:[number]
+Effect:[stat][+/-][number][duration]
+Description:[flavortext]
+end[Movename]
+
+UNIVERSAL
+
+OFFENSIVE 
+
+Chop:
+Damage: 4
+Defense: 1
+Accuracy: 80
+Effect: N/A
+Description: A simple swing of a weapon. Powerful and reliable.
+endChop
+
+DEFENSIVE
+
+Ready Guard:
+Damage: 2
+Defense: 4
+Accuracy: 90
+Effect: N/A
+Description: You focus more on defending against your enemy's attack 
+then you do prepairing your own.
+endReady Guard
+
+EVASIVE
+
+Two Handed Swing:
+Damage: 6
+Defense: 0
+Accuracy: 50
+Effect: N/A
+Description: A powerful overhead attack, 
+but you leave yourself wide open.
+endTwo Handed Swing
+
+MARTIAL
+
+OFFENSIVE
+	
+Helm Smash:
+Damage: 6
+Defense: 2
+Accuracy: 80
+Effect: N/A
+Description: Aim for the head; it hurts more.
+endHelm Smash
+
+DEFENSIVE
+
+Shield Charge:
+Damage: 2
+Defense: 5
+Accuracy: 95
+Effect: N/A
+Description: Take cover behind your shield and rush right for them.
+endShield Charge
+
+EVASIVE
+
+Faint Attack:
+Damage: 8
+Defense: 0
+Accuracy: 38
+Effect: N/A
+Description: Attempt to fake out your opponent, and then hit him 
+while he's open.
+endFaint Attack
+
+
+MAGE
+
+OFFENSIVE
+
+Magic Missle:
+Damage: 5
+Defense: 2
+Accuracy: 90
+Effect: N/A
+Description: It's magic missle.
+endMagic Missle
+
+DEFENSIVE
+
+Searing Barrier:
+Damage: 2
+Defense: 6
+Accuracy: 90
+Effect: N/A
+Description: A barrier of searing light, harming 
+all who try to step through.
+endSearing Barrier
+
+EVASIVE
+
+Featherlight:
+Damage: 7
+Defence: 0
+Accuracy: 50
+Effect: N/A
+Description: You make yourself as light as a feather, 
+becoming more powerful, but also more vulnerable.
+endFeatherlight
+
+DIVINE
+
+OFFENSIVE
+
+Smite:
+Damage: 4
+Defence: 3
+Accuracy: 90
+Effect: N/A
+Description: You call upon your god to attack the very life 
+force of your enemy.
+endSmite
+
+DEFENSIVE
+
+Divine Intervention:
+Damage: 2
+Defence: 5
+Accuracy: 85
+Effect: N/A
+Description: Your god shields part of an attack from harming you.
+endDivine Intervention
+
+EVASIVE
+
+Forsee:
+Damage: 8
+Defence: 0
+Accuracy: 45
+Effect: N/A
+Description: You are granted a vision of your opponent's next move 
+and figure out how to combat it.
+endForsee

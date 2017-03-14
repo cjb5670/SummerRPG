@@ -1,0 +1,34 @@
+FOR FUTURE IMPLEMENTATION:
+
+List of buttons.
+
+Button text is rewritten based on a list of moves each character has.
+Initilize reads a text doc that holds the moves a character knows and adds them to a list. 
+When a character learns a new move, it is added to the list. 
+
+A save function writes a character's stats to a text doc with their name on it.
+
+FOR ATTENTION NOW:
+
+Info Box needs texture.
+AddMove WPF needs to be edited so Descriptions fit on InfoBox (character limit
+	before break)
+	
+Create feedback for what is happening in the game.
+
+Allow for leveling up
+Combatant that delivers the killing blow gets the EP. 
+Levling up requires 100x the level being reached.
+Each enemy provides 100XP * level
+Reaching certain levels unlocks more powerful moves.
+When your total moves exceeds 4, there is an arrow that allows you to scroll through moves
+
+
+
+KNOWN BUGS:
+(possible solve) (Implementation)	Remove Combatant (game1 Update) function 
+sometimes repeats combatants
+Soundeffect logic is playing, but not the actual sound.
+Combat logic runs all at once, cannot be paused after certain events.
+
+	

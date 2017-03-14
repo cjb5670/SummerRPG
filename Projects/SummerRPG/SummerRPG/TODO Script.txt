@@ -1,0 +1,22 @@
+First screen is if you want to edit existing dialog or make a new one.
+
+NEW
+type in scene name and pressing next creates a new file with the scene.
+
+next
+
+WPF with a dropdown menu of all characters to select up to 4 in the conversation.
+
+next
+
+Selected characters become radio buttons.
+
+To add a line, select a character, select an emotion (voice acting), and enter dialog.
+
+Switching out has a dropdown of all current characters and a drop down of all characters.
+
+next (switch)
+
+current screen is updated with new characters.
+
+EXISTING

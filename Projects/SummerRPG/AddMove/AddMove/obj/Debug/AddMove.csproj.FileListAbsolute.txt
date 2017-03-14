@@ -1,0 +1,14 @@
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\bin\Debug\AddMove.exe.config
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove.csprojResolveAssemblyReference.cache
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\App.g.cs
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove_MarkupCompile.cache
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\bin\Debug\AddMove.exe
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\bin\Debug\AddMove.pdb
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\MainWindow.g.cs
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove_MarkupCompile.lref
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\MainWindow.baml
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove.g.resources
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove.Properties.Resources.resources
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove.csproj.GenerateResource.Cache
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove.exe
+c:\users\cameron\documents\visual studio 2015\Projects\AddMove\AddMove\obj\Debug\AddMove.pdb
